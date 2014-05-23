@@ -28,5 +28,13 @@
     "thread",
     "runnable",
     "child-process"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/objectundefined/node-executor-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/objectundefined/node-executor-service/issues"
+  },
+  "homepage": "https://github.com/objectundefined/node-executor-service"
 }
