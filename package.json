@@ -1,0 +1,32 @@
+{
+  "name": "executor-service",
+  "version": "0.1.1",
+  "description": "An \"ExecutorService\" implementation closely modeled after its java counterpart. Provides child-process executors to mimic multithreaded executors. Implements \"createExecutor(module_path_or_local_fn, [module_or_fn_constructor_args]), and \"createExecutorPool(pool_size, module_path_or_local_fn, [module_or_fn_constructor_args])",
+  "main": "lib/ExecutorService.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Lipson",
+  "license": "ISC",
+  "dependencies": {
+    "axon": "^2.0.0",
+    "axon-rpc": "0.0.3",
+    "colors": "^0.6.2",
+    "carrier": "^0.1.14",
+    "node-uuid": "^1.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.19.0",
+    "async": "^0.9.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "executor",
+    "executor-service",
+    "thread",
+    "runnable",
+    "child-process"
+  ]
+}
